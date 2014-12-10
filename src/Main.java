@@ -310,14 +310,14 @@ public class Main {
 
         if (results[1] == 1) {
             System.out.println("Success!");
-        } else {
-            throw new SimulationException(); //Oy bozhe sohrani menya ot Alika
-        }
+        }// else {
+            //throw new SimulationException(); //Oy bozhe sohrani menya ot Alika
+        //}
 
         System.out.println("The average number of days was " + results[0] + ".");
 
         System.exit(0);
 
-        throw new TheDevelopersHaveFallenAsleepException();
+        //throw new TheDevelopersHaveFallenAsleepException();
     }
 }
